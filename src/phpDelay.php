@@ -2,9 +2,6 @@
 
 namespace PhpUtils;
 
-/**
- * Date: 2017-11-13 14:36
- */
 class phpDelay
 {
 
