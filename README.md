@@ -7,11 +7,12 @@ composer require sn01615/php_delay
 ```
 
 # usage
+
 ```php
-use PhpUtils;
+use Tools;
 
 $cc = 'aaa';
-phpDelay::getInstance()->push(function () use ($cc) {
+PhpDelay::getInstance()->push(function () use ($cc) {
     echo $cc;
 });
 echo 'bbb';

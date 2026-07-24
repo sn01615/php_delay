@@ -1,8 +1,8 @@
 <?php
 
-namespace PhpUtils;
+namespace Tools;
 
-final class PhpDelay
+class PhpDelay
 {
     private static ?self $instance = null;
 
